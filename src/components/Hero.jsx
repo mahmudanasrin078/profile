@@ -26,12 +26,12 @@ const Hero = () => {
       name: "LinkedIn",
       gradient: "from-blue-600 to-blue-800",
     },
-    {
-      icon: <FaTwitter size={20} />,
-      url: "https://twitter.com/mahmudanasrin",
-      name: "Twitter",
-      gradient: "from-sky-400 to-sky-600",
-    },
+    // {
+    //   icon: <FaTwitter size={20} />,
+    //   url: "https://twitter.com/mahmudanasrin",
+    //   name: "Twitter",
+    //   gradient: "from-sky-400 to-sky-600",
+    // },
     {
       icon: <FaFacebook size={20} />,
       url: "https://facebook.com/mahmudanasrin",

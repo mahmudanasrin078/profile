@@ -19,8 +19,8 @@ const Education = () => {
       field: "Human Resource Management",
       institution: "State University of Bangladesh",
       location: "Dhaka, Bangladesh",
-      duration: "2020 - Present",
-      status: "Ongoing",
+      // duration: "2020 - Present",
+      status: "Completed",
       description:
         "Pursuing Bachelor of Business Administration with specialization in Human Resource Management. Learning organizational behavior, talent acquisition, employee relations, and strategic HR management.",
       highlights: ["HR Management", "Business Strategy", "Leadership"],
@@ -34,7 +34,7 @@ const Education = () => {
       field: "Higher Secondary Certificate",
       institution: "Banchbaria Degree College",
       location: "Bangladesh",
-      duration: "2017 - 2019",
+      // duration: "2017 - 2019",
       status: "Completed",
       description:
         "Successfully completed Higher Secondary Certificate education with focus on core academic subjects and developed strong foundational knowledge.",

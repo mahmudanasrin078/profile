@@ -37,15 +37,7 @@ const ProjectDetails = () => {
       to browse available services, view pricing, book appointments, and receive real-time updates on their 
       vehicle's service status. The admin dashboard provides service centers with powerful tools to manage 
       bookings, update service catalogs, and communicate with customers.`,
-      technologies: [
-        "React.js",
-        "Tailwind CSS",
-        "Node.js",
-        "Express.js",
-        "MongoDB",
-        "JWT Auth",
-        "Firebase",
-      ],
+      technologies: ["HTML5", "CSS", "Tailwind CSS"],
       liveLink: "https://mahmudanasrin078.github.io/card-doctor/",
       githubLink: "https://github.com/mahmudanasrin078/card-doctor",
       challenges: [

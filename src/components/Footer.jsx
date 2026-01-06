@@ -28,12 +28,12 @@ const Footer = () => {
       name: "LinkedIn",
       color: "hover:bg-blue-600",
     },
-    {
-      icon: <FaTwitter size={18} />,
-      url: "https://twitter.com/mahmudanasrin",
-      name: "Twitter",
-      color: "hover:bg-sky-500",
-    },
+    // {
+    //   icon: <FaTwitter size={18} />,
+    //   url: "https://twitter.com/mahmudanasrin",
+    //   name: "Twitter",
+    //   color: "hover:bg-sky-500",
+    // },
     {
       icon: <FaFacebook size={18} />,
       url: "https://facebook.com/mahmudanasrin",
@@ -79,13 +79,13 @@ const Footer = () => {
         </svg>
       </div>
 
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="container mx-auto lg:pl-8 px-4 relative z-10">
         {/* Main Footer Content */}
         <div className="py-16">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
             {/* Brand Section */}
             <div className="lg:col-span-5">
-              <div className="mb-6">
+              <div className="mb-6 ">
                 <h3 className="text-3xl font-black mb-2">
                   <span className="bg-gradient-to-r from-violet-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
                     Mahmuda
