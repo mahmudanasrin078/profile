@@ -74,7 +74,7 @@ const ProjectDetails = () => {
       color: "from-purple-500 to-indigo-500",
       bgAccent: "bg-purple-500",
       description: `Movie Master is a feature-rich movie discovery platform that helps film enthusiasts 
-      explore, discover, and track their favorite movies. Powered by the TMDB API, the application 
+      explore, discover, and track their favorite movies. Powered by the Context API, the application 
       provides access to thousands of movies with detailed information, ratings, and recommendations.
       
       Users can browse trending movies, search for specific titles, view detailed movie information 
@@ -83,12 +83,12 @@ const ProjectDetails = () => {
       beautiful, cinema-inspired UI creates an immersive browsing experience.`,
       technologies: [
         "React.js",
-        "TMDB API",
-        "Tailwind CSS",
+
         "Firebase Auth",
         "React Router",
         "Context API",
         "Axios",
+        "Tailwind CSS",
       ],
       liveLink: "https://assignment-10-movie-master.web.app/",
       githubLink: "https://github.com/mahmudanasrin078/Movie-Master-Project",
@@ -140,7 +140,7 @@ const ProjectDetails = () => {
         "DaisyUI",
         "React Router",
         "Context API",
-        "Firestore",
+        
       ],
       liveLink: "https://club-sphere-client.web.app/",
       githubLink: "https://github.com/mahmudanasrin078/club-sphere-client1",

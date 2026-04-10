@@ -15,37 +15,38 @@ import clubSphereImg from "../assets/club-sphere.jpg";
 const Projects = () => {
   const projects = [
     {
-      id: 1,
-      name: "Car Doctor",
-      image: carDoctorImg,
+      id: 3,
+      name: "Club Sphere",
+      image: clubSphereImg,
       shortDesc:
-        "A complete automotive service booking platform with appointment scheduling, service catalog, and user dashboard.",
-      technologies: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
-      liveLink: "https://mahmudanasrin078.github.io/card-doctor/",
-      githubLink: "https://github.com/mahmudanasrin078/card-doctor",
-      color: "from-red-500 to-orange-500",
+        "A community club management system with event organization, member profiles, and activity tracking.",
+      technologies: ["React", "Firebase", "MongoDB", "Tailwind CSS", "DaisyUI"],
+      liveLink: "https://club-sphere-client.web.app/",
+      githubLink: "https://github.com/mahmudanasrin078/club-sphere-client1",
+      color: "from-emerald-500 to-teal-500",
     },
+
     {
       id: 2,
       name: "Movie Master",
       image: movieMasterImg,
       shortDesc:
         "A movie discovery platform with trending films, detailed info, ratings, and personalized watchlist features.",
-      technologies: ["React", "TMDB API", "Tailwind CSS", "Firebase"],
+      technologies: ["React", "Context API", "Tailwind CSS", "Firebase"],
       liveLink: "https://assignment-10-movie-master.web.app/",
       githubLink: "https://github.com/mahmudanasrin078/Movie-Master-Project",
       color: "from-purple-500 to-indigo-500",
     },
     {
-      id: 3,
-      name: "Club Sphere",
-      image: clubSphereImg,
+      id: 1,
+      name: "Car Doctor",
+      image: carDoctorImg,
       shortDesc:
-        "A community club management system with event organization, member profiles, and activity tracking.",
-      technologies: ["React", "Firebase", "Tailwind CSS", "DaisyUI"],
-      liveLink: "https://club-sphere-client.web.app/",
-      githubLink: "https://github.com/mahmudanasrin078/club-sphere-client1",
-      color: "from-emerald-500 to-teal-500",
+        "A complete automotive service booking platform with appointment scheduling, service catalog, and user dashboard.",
+      technologies: ["HTML5", "CSS", "Tailwind CSS"],
+      liveLink: "https://mahmudanasrin078.github.io/card-doctor/",
+      githubLink: "https://github.com/mahmudanasrin078/card-doctor",
+      color: "from-red-500 to-orange-500",
     },
   ];
 
