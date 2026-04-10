@@ -161,9 +161,8 @@ const Hero = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12">
               <a
-                 href="https://drive.google.com/uc?export=download&id=18Wdun-alMq0qBE2xV2M1NcgyOm_IDNdI"
-  target="_blank"
-  rel="noopener noreferrer"
+                href="/resume.pdf"
+                download
                 className="group relative inline-flex items-center justify-center gap-3 px-8 py-4 overflow-hidden rounded-2xl font-bold transition-all duration-300"
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600"></div>
