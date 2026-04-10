@@ -161,8 +161,9 @@ const Hero = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12">
               <a
-                href="/resume.pdf"
-                download
+                 href="https://drive.google.com/uc?export=download&id=18Wdun-alMq0qBE2xV2M1NcgyOm_IDNdI"
+  target="_blank"
+  rel="noopener noreferrer"
                 className="group relative inline-flex items-center justify-center gap-3 px-8 py-4 overflow-hidden rounded-2xl font-bold transition-all duration-300"
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600"></div>
@@ -172,6 +173,23 @@ const Hero = () => {
                   Download Resume
                 </span>
               </a>
+
+              {/*  
+              <a
+  href="https://drive.google.com/uc?export=download&id=18Wdun-alMq0qBE2xV2M1NcgyOm_IDNdI"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group relative inline-flex items-center justify-center gap-3 px-8 py-4 overflow-hidden rounded-2xl font-bold transition-all duration-300"
+>
+  <div className="absolute inset-0 bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600"></div>
+  <div className="absolute inset-0 bg-gradient-to-r from-pink-600 via-purple-600 to-violet-600 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+  <span className="relative flex items-center gap-2 text-white">
+    <FaDownload className="group-hover:animate-bounce" />
+    Download Resume
+  </span>
+</a>
+              
+              */}
 
               <a
                 href="#projects"
