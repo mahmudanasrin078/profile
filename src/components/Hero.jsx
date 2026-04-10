@@ -161,8 +161,9 @@ const Hero = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12">
               <a
-                href="/resume.pdf"
-                download
+                href="https://drive.google.com/uc?export=download&id=18Wdun-alMq0qBE2xV2M1NcgyOm_IDNdI"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group relative inline-flex items-center justify-center gap-3 px-8 py-4 overflow-hidden rounded-2xl font-bold transition-all duration-300"
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600"></div>
@@ -283,10 +284,10 @@ const Hero = () => {
                       index === 0
                         ? "top-1/4 -left-12"
                         : index === 1
-                        ? "top-1/2 -right-10"
-                        : index === 2
-                        ? "bottom-1/3 -left-8"
-                        : "bottom-1/4 -right-6"
+                          ? "top-1/2 -right-10"
+                          : index === 2
+                            ? "bottom-1/3 -left-8"
+                            : "bottom-1/4 -right-6"
                     } hidden lg:block floating`}
                     style={{ animationDelay: skill.delay }}
                   >
